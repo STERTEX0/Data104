@@ -18,10 +18,23 @@
       }
     </script>
     <script src="https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+    <style>
+      /* Add custom styles here */
+      #google_translate_element {
+        position: fixed; /* Fix the position relative to the viewport */
+        top: 59px; /* Distance from the top of the viewport */
+        right: 10px; /* Distance from the right side of the viewport */
+        z-index: 1000; /* Ensure it appears above other content */
+        padding: 10px;
+        background-color: white; /* Optional: background color for better visibility */
+        border: 1px solid #ccc; /* Optional: border for better visibility */
+        border-radius: 5px; /* Optional: rounded corners */
+      }
+    </style>
   </head>
   <body>
     <noscript>You need to enable JavaScript to run this app.</noscript>
-    <div id="google_translate_element"></div>
     <div id="root"></div>
+    <div id="google_translate_element"></div> <!-- Positioned as a fixed element -->
   </body>
 </html>
