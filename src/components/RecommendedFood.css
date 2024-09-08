@@ -20,7 +20,7 @@
   @media (max-width: 768px) {
     .recommended-food-content h1 {
       font-size: 28px; /* ลดขนาดตัวอักษรสำหรับหน้าจอขนาดเล็ก */
-      margin-top: 90px; /* ลดระยะห่างด้านบน */
+      margin-top: 30px; /* ลดระยะห่างด้านบน */
       margin-bottom: 15px; /* ลดระยะห่างด้านล่าง */
     }
   }
@@ -29,7 +29,7 @@
   @media (min-width: 769px) and (max-width: 1024px) {
     .recommended-food-content h1 {
       font-size: 28px; /* ลดขนาดตัวอักษรสำหรับแท็บเล็ต */
-      margin-top: 40px; /* ปรับระยะห่างด้านบน */
+      margin-top: 30px; /* ปรับระยะห่างด้านบน */
       margin-bottom: 18px; /* ปรับระยะห่างด้านล่าง */
     }
   }

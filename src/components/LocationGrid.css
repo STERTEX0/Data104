@@ -99,6 +99,7 @@
   align-items: flex-start;
 }
 .location-grid-section{
+        margin-bottom: 0px;
         margin-top: 10px;
         width: 100%;
         font-family: 'Kanit', sans-serif;

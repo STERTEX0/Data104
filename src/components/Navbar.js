@@ -33,6 +33,10 @@ function MyNavbar() {
     navigate('/contact-us');
   };
 
+  const handleCheckCheckinSpots = () => {
+    window.scrollTo(0, 0);
+    navigate('/checkin-spots');
+  };
   return (
     <Navbar className="navbar-custom" expand="lg" fixed="top">
       <Navbar.Brand onClick={handleLogoClick} className="d-flex align-items-center">
@@ -44,7 +48,9 @@ function MyNavbar() {
         <Nav className="mr-auto">
           <Nav.Link onClick={handleRecommendationsClick}>อาหารแนะนำ</Nav.Link>
           <Nav.Link onClick={handleImportantPlacesClick}>สถานที่สำคัญ</Nav.Link>
+          <Nav.Link onClick={handleCheckCheckinSpots}>จุดเช็คอิน</Nav.Link>
           <Nav.Link onClick={handleActivitiesClick}>กิจกรรม</Nav.Link> {/* New Link */}
+          
         </Nav>
         <Nav className="ml-auto">
           <Nav.Link onClick={handleContactClick}>ช่องทางติดต่อ</Nav.Link>

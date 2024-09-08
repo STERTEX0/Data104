@@ -48,7 +48,7 @@
   @media (max-width: 767px) {
     .important-places-content h1 {
       font-size: 28px; /* Smaller font size for mobile screens */
-      margin-top: 90px; /* Adjust margin for mobile screens */
+      margin-top: 30px; /* Adjust margin for mobile screens */
       margin-bottom: 15px; /* Adjust margin for mobile screens */
     }
 

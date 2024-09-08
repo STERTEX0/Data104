@@ -7,7 +7,7 @@ import Contact from './components/Contact';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css';
 import Activities from './components/Activities';
-
+import CheckinSpots from './components/CheckinSpots';
 
 function App() {
   return (
@@ -17,6 +17,7 @@ function App() {
       <Route path="/important-places" element={<ImportantPlaces />} />
       <Route path="/contact-us" element={<Contact/>}/>
       <Route path='/activities' element={<Activities/>} />
+      <Route path="/checkin-spots" element={<CheckinSpots />} />
     </Routes>
   );
 }

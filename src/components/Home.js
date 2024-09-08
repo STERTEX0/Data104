@@ -7,6 +7,7 @@ import GridSection from "./GridSection";
 import LocationGrid from "./LocationGrid";
 import VideoSection from "./VideoSection";
 import "./Home.css"; // ไฟล์ CSS สำหรับหน้า Home
+import CheckGridSection from "./CheckGridSection";
 
 const Home = () => {
   return (
@@ -15,6 +16,7 @@ const Home = () => {
       <div className="content">
         <ListWrapper />
         <ImageTextSection />
+        <CheckGridSection />
         <GridSection />
         <LocationGrid />
         <VideoSection /> {/* Section สำหรับ YouTube Videos */}
