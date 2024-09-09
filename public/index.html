@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en"> <!-- Set language to English -->
   <head>
     <meta charset="utf-8" />
     <link rel="icon" href="./logo.jpg" />
@@ -13,7 +13,9 @@
       function googleTranslateElementInit() {
         new google.translate.TranslateElement({
           includedLanguages: 'th,en,zh-CN,ja,id,ms,ar',
-          layout: google.translate.TranslateElement.InlineLayout.SIMPLE
+          layout: google.translate.TranslateElement.InlineLayout.SIMPLE,
+          pageLanguage: 'th',  // Default page language is Thai
+          autoDisplay: false  // Prevent automatic translation at the beginning
         }, 'google_translate_element');
       }
     </script>
@@ -22,6 +24,18 @@
       /* Add custom styles here */
       #google_translate_element {
         position: fixed; /* Fix the position relative to the viewport */
+        top: 75px; /* Distance from the top of the viewport */
+        right: 10px; /* Distance from the right side of the viewport */
+        z-index: 1000; /* Ensure it appears above other content */
+        padding: 10px;
+        background-color: white; /* Optional: background color for better visibility */
+        border: 1px solid #ccc; /* Optional: border for better visibility */
+        border-radius: 5px; /* Optional: rounded corners */
+        
+      }
+      @media (max-width: 480px) {
+  #google_translate_element {
+    position: fixed; /* Fix the position relative to the viewport */
         top: 59px; /* Distance from the top of the viewport */
         right: 10px; /* Distance from the right side of the viewport */
         z-index: 1000; /* Ensure it appears above other content */
@@ -29,7 +43,9 @@
         background-color: white; /* Optional: background color for better visibility */
         border: 1px solid #ccc; /* Optional: border for better visibility */
         border-radius: 5px; /* Optional: rounded corners */
-      }
+  }
+}
+      
     </style>
   </head>
   <body>

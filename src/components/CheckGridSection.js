@@ -48,7 +48,7 @@ const CheckGridSection = () => {
     <div className="check-grid-section">
       {/* Header Section */}
       <div className="grid-header">
-        <h2 className="grid-title">จุดเช็คอิน</h2>
+        <h2 className="grid-title">จุดเช็คอิน 6 จุดในชุมชน</h2>
         <Button 
           variant="primary" 
           className="view-all-button" 

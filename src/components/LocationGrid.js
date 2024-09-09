@@ -50,7 +50,7 @@ const LocationGrid = () => {
   return (
     <div className="location-grid-section">
       <div className="location-grid-header">
-        <h2 className="location-grid-title">สถานที่สำคัญ</h2>
+        <h2 className="location-grid-title">สถานที่ใกล้เคียง</h2>
         <Button variant="primary" className="view-all-button" onClick={handleImportantPlacesClick}>
           ดูทั้งหมด
         </Button>

@@ -13,7 +13,7 @@ function ImportantPlaces() {
       <Navbar />
       <div className="content">
         <div className='important-places-content h1'>
-          <h1>สถานที่สำคัญ</h1>
+          <h1>สถานที่ใกล้เคียง</h1>
           </div>
           <PlacesGridSection /> {/* Display PlacesGridSection here */}
       </div>

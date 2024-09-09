@@ -1,7 +1,9 @@
 
 
 /* Media queries for responsiveness */
-
+.check-grid-section{
+  margin-top: 40px;
+}
 /* For tablets and smaller desktop screens */
 @media (max-width: 1200px) {
   .card {
@@ -26,7 +28,7 @@
 }
 
 /* For small mobile screens */
-@media (max-width: 768px) {
+@media (max-width: 480px) {
   .card {
     flex: 0 1 calc(50% - 10px); /* Display 2 cards per row */
   }
